@@ -1,0 +1,32 @@
+# Protect scraped data from git clean
+data/raw/telegram_messages/
+data/raw/images/
+data/raw/csv/
+data/processed/csv/
+
+# But keep the folder itself
+!data/.gitkeep
+.env
+
+
+# Ignore saved model artifacts [cite: 97]
+
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Environments ---
+.env
+.venv
+venv/
+ENV/
+env/
+vector_store
+notebooks/vector_store
+runs
