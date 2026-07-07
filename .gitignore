@@ -1,8 +1,8 @@
 # Protect scraped data from git clean
 data/raw/telegram_messages/
 data/raw/images/
-data/raw/csv/
-data/processed/csv/
+data/raw/*csv
+data/processed/*csv 
 
 # But keep the folder itself
 !data/.gitkeep
